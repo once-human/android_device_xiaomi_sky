@@ -23,7 +23,7 @@ PRODUCT_NAME := custom_sky
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sky_in-user 15 AQ3A.240912.001 OS2.0.204.0.VMWINXM release-keys" \
-    BuildFingerprint=Redmi/sky_in/sky:15/AQ3A.240912.001/OS2.0.204.0.VMWINXM:user/release-keys \
+    BuildDesc="sky_global-user 15 AQ3A.240912.001 OS2.0.210.0.VMWMIXM release-keys" \
+    BuildFingerprint=Redmi/sky_global/sky:15/AQ3A.240912.001/OS2.0.210.0.VMWMIXM:user/release-keys \
     DeviceProduct=sky \
-    SystemName=sky_in
+    SystemName=sky_global

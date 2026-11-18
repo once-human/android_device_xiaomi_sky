@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from sky OS2.0.204.0.VMWINXM
+## are from sky OS2.0.210.0.VMWMIXM
 
 # Audio
 odm/etc/audio_policy_engine_configuration_mi.xml
@@ -437,8 +437,12 @@ vendor/etc/thermal-videochat.conf
 vendor/etc/thermald-devices.conf
 
 # Touchscreen
+vendor/firmware/focaltech_8725_fw.bin
+vendor/firmware/focaltech_8725_fw.bin:recovery/root/vendor/firmware/focaltech_8725_fw.bin
 vendor/firmware/focaltech_ft8720_hx.ini
 vendor/firmware/focaltech_ft8720_hx.ini:recovery/root/vendor/firmware/focaltech_ft8720_hx.ini
+vendor/firmware/focaltech_ft8725_hx.ini
+vendor/firmware/focaltech_ft8725_hx.ini:recovery/root/vendor/firmware/focaltech_ft8725_hx.ini
 vendor/firmware/focaltech_ts_fw_.bin
 vendor/firmware/focaltech_ts_fw_.bin:recovery/root/vendor/firmware/focaltech_ts_fw_.bin
 vendor/firmware/novatek_ts_fw.bin
