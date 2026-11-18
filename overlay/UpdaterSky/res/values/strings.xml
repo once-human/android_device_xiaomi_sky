@@ -7,4 +7,7 @@
     <!-- Updates come from the sky release repository: {branch} is
          net.pixelos.version, {device} is ro.custom.device -->
     <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/once-human/pixelos-sky/main/ota/{branch}/{device}.json</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/once-human/pixelos-sky/main/ota/{branch}/changelogs/{device}.md</string>
+    <string name="report_issue_url" translatable="false">https://github.com/once-human/pixelos-sky/issues</string>
+    <string name="header_download_url" translatable="false">github.com/once-human/pixelos-sky</string>
 </resources>
