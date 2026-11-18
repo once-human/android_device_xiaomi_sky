@@ -10,15 +10,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sky device.
 $(call inherit-product, device/xiaomi/sky/device.mk)
 
-# Inherit from the LineageOS configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the PixelOS configuration.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := sky
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 23076RN4BI
-PRODUCT_NAME := lineage_sky
+PRODUCT_NAME := custom_sky
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
