@@ -45,6 +45,7 @@ on boot
 on post-fs-data
     mkdir /data/vendor/fpc 0770 system system
     mkdir /data/vendor/goodix 0770 system system
+    mkdir /data/vendor/goodix/gf_data 0770 system system
 
 # NFC SKUs, from stock init_nfc_sn1xxx.rc
 on early-init && property:ro.boot.boardid=S88019BP1
