@@ -7,5 +7,4 @@
 runtime_resource_overlay {
     name: "CarrierConfigResSky",
     aaptflags: ["--keep-raw-values"],
-    vendor: true,
 }
