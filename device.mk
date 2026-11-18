@@ -75,10 +75,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     net.pixelos.build_type=unofficial
 
-# Build number shown in About phone (no dots, so init keeps it whole)
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.build.display.id=pixelos-17-sky-onkar-$(shell date -u +%Y%m%d)
-
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigResSky \
