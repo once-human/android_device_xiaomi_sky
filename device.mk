@@ -77,7 +77,12 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigResSky \
     FrameworksResSky \
+    SettingsResSky \
+    SystemUIResSky \
+    TelephonyResSky \
+    WifiResSky \
     SettingsProviderResSkyPocoM6Pro5G \
     SettingsProviderResSkyRedmi125G \
     SettingsProviderResSkyRedmi12R \
