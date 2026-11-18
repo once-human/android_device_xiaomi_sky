@@ -56,6 +56,12 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
+# DRM
+# The Widevine APEX loads the Qualcomm OEMCrypto library from vendor.
+# Without it Widevine falls back to L3 and DRM apps stream in SD.
+PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
+    $(LOCAL_PATH)/linker.config.json
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResSky \
