@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Updates come from the sky release repository: {branch} is
+         net.pixelos.version, {device} is ro.custom.device -->
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/once-human/pixelos-sky/main/ota/{branch}/{device}.json</string>
+</resources>

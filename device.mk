@@ -62,6 +62,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(LOCAL_PATH)/linker.config.json
 
+# OTA
+# PixelOS only ships its updater on official builds. Ship it here too,
+# reading updates from the sky release repository (see UpdaterSky).
+PRODUCT_PACKAGES += \
+    Updater \
+    UpdaterSky
+
+PRODUCT_COPY_FILES += \
+    vendor/custom/config/permissions/privapp-permissions-custom.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-custom.xml
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    net.pixelos.build_type=unofficial
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResSky \
